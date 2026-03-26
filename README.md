@@ -2,8 +2,6 @@
 
 **Claude Code icin Pen2Profit (P2P) direct response copywriting skill seti.**
 
-Luis Berger'in Pen2Profit egitimindeki tum framework'leri, formulleri ve prensipleri Claude Code'a entegre eden 8 skill + 7 reference dosyasindan olusan kapsamli bir sistem.
-
 ---
 
 ## Ne Yapar?
@@ -253,7 +251,3 @@ PR'lar ve issue'lar memnuniyetle karsilanir. Ozellikle:
 MIT License - Dilediginiz gibi kullanin, dagitim, modifiye edin.
 
 ---
-
-## Kaynak
-
-Bu skill seti, Luis Berger'in [Pen2Profit](https://www.educate.io/) copywriting egitimindeki prensip ve framework'lere dayanmaktadir. Egitimin kendisi ayri bir urunur; bu repo sadece ogrenilen prensiplerin Claude Code skill formati ile uygulanmasidir.
