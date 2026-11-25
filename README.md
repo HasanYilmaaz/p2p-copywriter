@@ -1,51 +1,49 @@
 # P2P Copywriter - Pen2Profit Metodolojisi ile Claude Code Skills
 
-**Claude Code icin Pen2Profit (P2P) direct response copywriting skill seti.**
+**Claude Code için Pen2Profit (P2P) direct response copywriting skill seti.**
+
+Sürüm 2.0: tüm referanslar ders transkriptlerinden yeniden yazılıp derinleştirildi, `p2p-reels` skill'i ve Türkçe pazar notları eklendi.
 
 ---
 
 ## Ne Yapar?
 
-Bu skill seti Claude Code'a su yetenekleri kazandirir:
-
 | Skill | Ne Yapar |
 |-------|----------|
-| `p2p` | Ana hub -- metodoloji hakkinda sorulari yanitlar, diger skill'lere yonlendirir |
-| `p2p-write` | Her formatta copy yazar (email, reklam, VSL, landing page) |
-| `p2p-review` | Mevcut copy'yi 8 filtre ile analiz eder, puanlar, iyilestirme onerir |
-| `p2p-research` | Hedef kitle arastirmasi yapar, 3 katman problem analizi, angle uretir |
-| `p2p-email` | Email yazar + email machine mimarisi tasarlar (relationship + sales machine) |
-| `p2p-ads` | YouTube ve Facebook/Instagram reklam metni yazar |
-| `p2p-vsl` | VSL (Video Sales Letter) / uzun format satis videosu scripti yazar |
-| `p2p-landing` | Landing page copy'si, headline ve CTA yazar |
+| `p2p` | Ana hub: metodoloji sorularını yanıtlar, diğer skill'lere yönlendirir |
+| `p2p-write` | Her formatta copy yazar (önce malzeme, sonra 6 adım formülü, sonra filtreler) |
+| `p2p-review` | Mevcut copy'yi 8 boyutta puanlar (/80), öncelik sırasıyla düzeltir, yeniden yazar |
+| `p2p-research` | Hedef kitle araştırması: 3 katman problem, gerçek arzu, dualiteler, açılar, doğrulama |
+| `p2p-email` | Tek email, sekans veya tam email machine (relationship + sales machine) |
+| `p2p-ads` | YouTube ve Facebook/Instagram reklam metni (blueprint'ler, politika kuralları) |
+| `p2p-vsl` | Launch Canvas, teklif, lead seçimi ve tam VSL / uzun format satış metni |
+| `p2p-landing` | Landing page copy'si, headline ve CTA |
+| `p2p-reels` | Reels / Shorts / TikTok: konu bulma, paylaşım planı, Olta-Hikaye-Çözüm-CTA metni |
 
 ---
 
-## Icerdigi P2P Framework'ler
+## İçerdiği Framework'ler
 
-- **6-Step Formula** (Verify > Validate > Pivot > Explain > Benefit > CTA)
-- **5 Basic Element** (Target Customer, Desired Outcome, Benefit, Pain Point, Signature Solution)
-- **3 Katman Problem Analizi** (External > Internal > Philosophical > Real Desire)
-- **Dualite Teorisi** (Duality > Conflict > Movement > Decision)
-- **AIDA** (Attention > Interest > Desire > Action)
-- **PWAS** (Problem > Why > Agitate > Solve)
-- **BAB** (Before > After > Bridge)
-- **Blair Warren'in 5 Element Ikna Formulu**
-- **9 Kanitlanmis Email Angle Template'i**
-- **5 Angle Uretme Metodu** (News Effect, Contrarian, New Perspective, Amplify, Own Theory)
-- **8 Headline Kriteri**
-- **Email Machine Mimarisi** (Multi-layer: Relationship + Sales Machine)
-- **4 Email Kampanya Tipi** (Four-Day Cash Machine, Auto-Launcher, One-Time Launch, Goodwill)
-- **Launch Canvas** (One Belief Formula, Big Idea, Offer Pillars, Chain of Beliefs)
-- **Lead Types** (Eugene Schwartz Awareness Levels ile eslestirilmis)
-- **YouTube/Facebook Reklam Yapilari** (platform-spesifik kurallar)
-- **6 Editing Filtresi** (AIDA, 10-Year-Old Test, Length, Abstraction, Connecting Words, Blair Warren)
+- **5 Basic Element** ve **6-Step Formula** (Verify > Validate > Pivot > Explain > Benefit > CTA), adım adım gerekçeleri ve örnekleriyle
+- **3 Katman Problem Analizi** (External > Internal > Philosophical > Real Desire), farkında olunan / olunmayan problemler
+- **Dualite Teorisi**, logic bubble, savcı zihniyeti (inanç zinciri)
+- **2 Copy Duygusu** ve **soyutlama filtresi** (1 numaralı dönüşüm katili)
+- **PWAS**, **BAB**, **AIDA**, **Blair Warren'ın 5 elementi**
+- **8 kanıtlanmış açı şablonu** ve açı üretme prosedürü
+- **Email Machine**: Relationship Building Campaign, haftalık emailler, 4 kampanya tipi (Four-Day Cash Machine, Auto-Launcher, One-Time Launch, Goodwill), email-email blueprint'ler, otomasyon kurulumu
+- **Reklam**: hacim + modelleme yöntemi, 6 YouTube reklam blueprint'i, Facebook/Instagram kuralları ve politika testi
+- **Landing page**: sayfa anatomisi, 8 headline kriteri, ad scent
+- **Launch Canvas**: Marketing Thesis, Big Idea, Offer Pillars, Chain of Beliefs, lead tipleri (farkındalık seviyeleriyle)
+- **Teklif kurulumu**: pillar'lar, bonuslar, fiyat sunumu, aciliyet/kıtlık, garanti
+- **VSL anatomisi**: 18 bölümlük kırılım, VSL iskeleti, pre-flight checklist
+- **Reels formülü**: Olta > Hikaye > Çözüm (3 madde) > CTA
+- **Çok açılan 50 Türkçe başlık formülü**
+- **Türkçe mail playbook'u**: etkinlik/lansman, 21 günlük kamp, haftalık yayın akışları; 22 mail tipi iskeleti; 26 örnek mail; 18 konu satırı kalıbı
+- **Patron notları**: arzu/engel formülü, cennet/cehennem, Türkçe açıklamalı örnekler
 
 ---
 
 ## Kurulum
-
-### Otomatik Kurulum (Onerilir)
 
 ```bash
 git clone https://github.com/HasanYilmaaz/p2p-copywriter.git
@@ -63,168 +61,82 @@ chmod +x install.sh
 ./install.sh
 ```
 
-### Manuel Kurulum
+Script, skill klasörlerini `~/.claude/skills/` altına kopyalar. Güncellemek için `git pull` yapıp scripti yeniden çalıştırın, ardından Claude Code'u yeniden başlatın.
 
-1. Repo'yu klonlayin:
-```bash
-git clone https://github.com/HasanYilmaaz/p2p-copywriter.git
-```
-
-2. Skill klasorlerini Claude Code'un skills dizinine kopyalayin:
-```bash
-# Mac/Linux
-cp -r p2p-copywriter/p2p* ~/.agents/skills/
-
-# Windows
-xcopy /E /I p2p-copywriter\p2p* %USERPROFILE%\.agents\skills\
-```
-
-3. Symlink'leri olusturun (Claude Code'un skill'leri tanimasi icin):
-```bash
-# Mac/Linux
-for skill in p2p p2p-write p2p-review p2p-research p2p-email p2p-ads p2p-vsl p2p-landing; do
-  ln -sf ~/.agents/skills/$skill ~/.claude/skills/$skill
-done
-
-# Windows (PowerShell - Admin olarak calistirin)
-$skills = @("p2p","p2p-write","p2p-review","p2p-research","p2p-email","p2p-ads","p2p-vsl","p2p-landing")
-foreach ($s in $skills) {
-  New-Item -ItemType SymbolicLink -Path "$env:USERPROFILE\.claude\skills\$s" -Target "$env:USERPROFILE\.agents\skills\$s" -Force
-}
-```
-
-4. Claude Code'u yeniden baslatin.
+**Manuel kurulum:** `p2p*` klasörlerinin tamamını `~/.claude/skills/` altına kopyalayın. Klasörler yan yana durmalı; diğer skill'ler referanslara `../p2p/references/` yoluyla ulaşır.
 
 ---
 
-## Kullanim
-
-### Slash Komutlari
-
-Claude Code'da su komutlari kullanabilirsiniz:
+## Kullanım
 
 ```
-/p2p                 Ana metodoloji hub'i
+/p2p                 Ana metodoloji hub'ı
 /p2p-write           Copy yazma
 /p2p-review          Copy analiz/puanlama
-/p2p-research        Hedef kitle arastirmasi
-/p2p-email           Email yazma + sistem tasarimi
+/p2p-research        Hedef kitle araştırması
+/p2p-email           Email yazma + sistem tasarımı
 /p2p-ads             YouTube/Facebook reklam yazma
-/p2p-vsl             VSL/satis videosu scripti
+/p2p-vsl             VSL/satış videosu metni
 /p2p-landing         Landing page copy
+/p2p-reels           Reels/Shorts metni, konu ve paylaşım planı
 ```
 
-### Dogal Dil ile Kullanim
-
-Skill'ler dogal dil ile de tetiklenir:
+Doğal dil ile de tetiklenir:
 
 ```
 "p2p ile bir email yaz"
-"bu copy'yi p2p'ye gore analiz et"
-"p2p research yap, hedef kitlem 25-35 yas arasi kadinlar"
-"p2p landing page headline'i yaz"
+"bu copy'yi p2p'ye göre analiz et"
+"p2p research yap, hedef kitlem 25-35 yaş arası kadınlar"
+"p2p landing page headline'ı yaz"
 "facebook reklam metni yaz p2p ile"
-"vsl scripti olustur p2p metodolojisiyle"
+"vsl scripti oluştur p2p metodolojisiyle"
+"gayrimenkul danışmanları için 10 reels metni yaz"
 ```
 
 ---
 
-## Ornek Kullanim Senaryolari
-
-### 1. Email Yazma
-
-```
-> p2p email yaz
-
-Claude soracak:
-- Email'in amaci ne? (value, hook, sales, countdown)
-- Hedef kitle kim?
-- Istenen aksiyon ne? (link tiklama, video izleme, arama rezervasyonu)
-- Arkasindaki urun/teklif ne?
-
-Sonuc: P2P 6-Step Formula ile yazilmis, 9 angle template'inden biri uygulanmis,
-6 filtreden gecirilmis hazir email copy'si.
-```
-
-### 2. Copy Analiz
-
-```
-> bu copy'yi p2p'ye gore analiz et: [copy'yi yapistirin]
-
-Claude 8 filtre uygular:
-1. AIDA Check (/10)
-2. Sadelik - 10 Yas Testi (/10)
-3. Uzunluk/Cesitlilik (/10)
-4. Somut vs Soyut (/10)
-5. Baglayici Kelimeler (/10)
-6. Blair Warren 5 Element (/10)
-7. Dualite & Catisma (/10)
-8. Problem Derinligi (/10)
-
-Toplam: /80 puan + satir satir iyilestirme + yeniden yazilmis versiyon
-```
-
-### 3. Hedef Kitle Arastirmasi
-
-```
-> p2p research yap, kilo verme nisi, hedef kitle 30-45 yas arasi kadinlar
-
-Claude uretir:
-- 10+ dis problem (gunluk yasanan)
-- Ic problem (duygusal tepki)
-- Felsefi problem (catisma/dualite)
-- Gercek arzu (yuzeysel arzunun altindaki)
-- Rock Bottom vs Top of Mountain senaryolari
-- 20+ angle (5 farkli metotla)
-- 9 email angle template'i doldurulmus
-- Arastirma onerileri (YouTube comments, FB Ad Library, ClickBank)
-```
-
-### 4. VSL Scripti
-
-```
-> p2p vsl scripti olustur
-
-Claude Launch Canvas'i doldurur:
-1. Problem & Arzu (4 katman)
-2. Dualite & Ortak Dusman
-3. Marketing Tezi (One Belief Formula)
-4. Big Idea
-5. Offer Pillars
-6. Chain of Beliefs
-7. Lead Type secimi
-
-Sonuc: Tam VSL scripti (lead, body, pitch, close) + YouTube optimizasyonu
-```
-
----
-
-## Dosya Yapisi
+## Dosya Yapısı
 
 ```
 p2p-copywriter/
-|
-|-- p2p/                          # Ana hub skill
+|-- p2p/                              # Ana hub skill
 |   |-- SKILL.md
-|   |-- references/               # Merkezi bilgi bankasi (tum skill'ler kullanir)
-|       |-- core-principles.md        # Temel prensipler (sadelik, AIDA, dualite)
-|       |-- copy-formulas.md          # Yazma formulleri (6-step, PWAS, BAB, template'ler)
-|       |-- research-framework.md     # Arastirma (3 katman, ChatGPT prompting, angle'lar)
-|       |-- persuasion-filters.md     # Editing filtreleri (Blair Warren, abstraction)
-|       |-- email-machine.md          # Email sistemi (kampanya tipleri, relationship machine)
-|       |-- advertising-rules.md      # Reklam kurallari (YouTube, Facebook, headline kriterleri)
-|       |-- longform-canvas.md        # Uzun format (Launch Canvas, One Belief, Big Idea)
+|   |-- references/                   # Merkezi bilgi bankası (tüm skill'ler kullanır)
+|       |-- core-principles.md            # Temel prensipler
+|       |-- copy-formulas.md              # 5 element, 6 adım, PWAS, BAB, CTA kuralları
+|       |-- proven-angles.md              # 8 açı şablonu + açı üretme
+|       |-- persuasion-filters.md         # Editing filtreleri + puanlama rubriği
+|       |-- research-framework.md         # Araştırma prosedürü ve doğrulama
+|       |-- emotions-and-concreteness.md  # 2 duygu, isimlendirme, soyutlama filtresi
+|       |-- ai-research-prompts.md        # Araştırma prompt şablonları
+|       |-- email-machine.md              # Email machine mimarisi
+|       |-- email-campaign-blueprints.md  # Sekansların email-email planı
+|       |-- email-automation-setup.md     # Tag/trigger/akış mantığı
+|       |-- advertising-rules.md          # Reklam prensipleri, YouTube/Facebook kuralları
+|       |-- youtube-ad-blueprints.md      # 6 YouTube reklam iskeleti
+|       |-- landing-page-rules.md         # Sayfa anatomisi, 8 headline kriteri
+|       |-- longform-canvas.md            # Launch Canvas
+|       |-- offer-construction.md         # Teklif kurulumu
+|       |-- leads-and-packaging.md        # Lead tipleri, satış videosu paketleme
+|       |-- vsl-breakdown.md              # Tam bir VSL'in bölüm bölüm anatomisi
+|       |-- reels-formula.md              # Reels formülü ve örnekler
+|       |-- turkish-headline-formulas.md  # 50 Türkçe başlık formülü
+|       |-- patron-notes.md               # Türkçe pazar notları ve örnekler
+|       |-- turkish-email-playbook.md     # Türkçe mail kampanya akışları, 22 mail tipi
+|       |-- turkish-email-swipe.md        # 26 açıklamalı Türkçe örnek mail
+|       |-- turkish-subject-lines.md      # Türkçe konu satırı kalıpları, biçim, kaçınılacaklar
 |
-|-- p2p-write/SKILL.md           # Genel copy yazma
-|-- p2p-review/SKILL.md          # Copy analiz & feedback
-|-- p2p-research/SKILL.md        # Hedef kitle arastirmasi
-|-- p2p-email/SKILL.md           # Email yazma + sistem
-|-- p2p-ads/SKILL.md             # YouTube + Facebook reklam
-|-- p2p-vsl/SKILL.md             # VSL / long-form
-|-- p2p-landing/SKILL.md         # Landing page copy
-|-- install.sh                    # Mac/Linux kurulum scripti
-|-- install.ps1                   # Windows kurulum scripti
-|-- README.md                     # Bu dosya
+|-- p2p-write/SKILL.md
+|-- p2p-review/SKILL.md
+|-- p2p-research/SKILL.md
+|-- p2p-email/SKILL.md
+|-- p2p-ads/SKILL.md
+|-- p2p-vsl/SKILL.md
+|-- p2p-landing/SKILL.md
+|-- p2p-reels/SKILL.md
+|-- install.sh
+|-- install.ps1
+|-- README.md
 ```
 
 ---
@@ -232,22 +144,9 @@ p2p-copywriter/
 ## Gereksinimler
 
 - [Claude Code](https://claude.ai/code) (CLI, Desktop App veya IDE extension)
-- `.agents/skills/` ve `.claude/skills/` dizinlerinin mevcut olmasi (Claude Code kurulumu ile otomatik olusur)
-
----
-
-## Katkida Bulunma
-
-PR'lar ve issue'lar memnuniyetle karsilanir. Ozellikle:
-- Yeni niche ornekleri ekleme
-- Mevcut framework'leri genisletme
-- Farkli dillere ceviri
-- Bug fix ve iyilestirmeler
 
 ---
 
 ## Lisans
 
-MIT License - Dilediginiz gibi kullanin, dagitim, modifiye edin.
-
----
+MIT License

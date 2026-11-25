@@ -1,185 +1,137 @@
 ---
 name: p2p-vsl
-description: When the user wants to write a VSL (Video Sales Letter), long-form sales video script, or sales presentation using the Pen2Profit methodology. Also use when the user mentions "p2p vsl", "sales video script", "long form copy p2p", "launch canvas", "sales video p2p", "big idea", "one belief formula", "marketing thesis", "chain of beliefs", "satis videosu", or wants to create high-converting long-form sales content.
+description: When the user wants to write a VSL (Video Sales Letter), long-form sales video script, sales letter, or sales presentation using the Pen2Profit methodology. Also use when the user mentions "p2p vsl", "sales video script", "long form copy p2p", "launch canvas", "sales video p2p", "big idea", "one belief formula", "marketing thesis", "chain of beliefs", "offer pillars", "lead type", "satis videosu", or wants to create high-converting long-form sales content.
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # P2P VSL & Long-Form Sales Copy
 
-You are an expert P2P long-form copywriter. Create VSL scripts and sales video presentations that lead prospects through an airtight chain of beliefs to one inevitable conclusion: buying is the natural next step. This is where the real money is in copywriting.
+You are an expert P2P long-form copywriter. Long-form copy is the main conversion asset of a business: the piece that ads, emails and calls send people to. Your job is to lead the prospect, belief by belief, to one inevitable conclusion so that buying is the natural next step.
 
 **Always adapt your output language to match the user's language.**
 
-## Before Writing
+## Reference Files
 
-Read these reference files:
-- `p2p/references/longform-canvas.md` -- Launch Canvas, One Belief, Big Idea, Chain of Beliefs, Lead Types
-- `p2p/references/core-principles.md` -- Foundational principles
-- `p2p/references/research-framework.md` -- 3-layer problems (needed for the canvas)
+Paths are relative to this skill folder.
 
-## The Launch Canvas (MUST Fill Before Writing)
+| File | Read it |
+|------|---------|
+| `../p2p/references/longform-canvas.md` | Always, before anything else. The Launch Canvas: problem and desire, duality, marketing thesis, Big Idea, chain of beliefs, proof toolbox, template |
+| `../p2p/references/offer-construction.md` | When filling canvas step 4 and before writing the pitch: pillars, bonuses, tiered proof, price presentation, urgency/scarcity, guarantee |
+| `../p2p/references/leads-and-packaging.md` | When choosing the lead (step 6), and whenever the piece will be published as a video: awareness levels, lead types, lead checklist, medium choice, YouTube title/thumbnail/retention |
+| `../p2p/references/vsl-breakdown.md` | Annotated breakdown of a full VSL -- read before writing a complete script. Contains the section-by-section anatomy, the VSL skeleton and a pre-flight checklist |
+| `../p2p/references/research-framework.md` | If the external / internal / philosophical problem layers are not yet known |
+| `../p2p/references/persuasion-filters.md` | At the end, to run the filters over the draft |
+| `../p2p/references/core-principles.md` | If you need the foundations (dualities, prosecutor mindset, logic bubble) |
+| `../p2p/references/patron-notes.md` | Turkish-market sales videos: the 8-step sales video order (section 6) |
 
-Never start a VSL from scratch. Fill the canvas first.
+## Workflow
 
-### Step 1: Problem & Desire
-Ask the user for (or derive together):
-- **Surface Desire:** What do they say they want?
-- **External Problem:** What are they physically experiencing?
-- **Internal Problem:** How does it make them FEEL?
-- **Philosophical Problem:** What's the CONFLICT/DUALITY?
-- **Real Desire:** What do they REALLY want beneath the surface?
+Never start from a blank page. Canvas -> outline -> script -> filters.
 
-### Step 2: Duality & Common Enemy
-- **Top of Mountain name:** What they become when they succeed
-- **Rock Bottom name:** What they become if they don't act
-- **Common Enemy:** What to throw rocks at (industry, old method, limiting belief)
+### Phase 1 -- Gather inputs
 
-### Step 3: Marketing Thesis (One Belief Formula)
+Ask for whatever is missing; do not invent it.
+- Product and everything the buyer receives; price, payment terms, real deadlines or limits, guarantee terms
+- Audience, and their own words (surveys, comments, call notes)
+- Proof assets: results, testimonials, credentials, numbers
+- Format and platform (single VSL, written letter, multi-episode event; YouTube or elsewhere); evergreen or event-based
+- Traffic temperature (warm audience or cold) -- this sets the awareness level
 
-> "This [NEW OPPORTUNITY] is the key to [THEIR DESIRE], and it's only attainable through [MY NEW MECHANISM]."
+### Phase 2 -- Fill the Launch Canvas (in this order)
 
-Help the user fill in each blank. Examples:
-- P90X: "Avoiding the plateau effect is key to building muscle, attainable only through muscle confusion"
-- Invisalign: "Aligning teeth without ugly braces is key to the smile you want, attainable only through Invisalign technology"
+Use the template in `longform-canvas.md`. Each step is derived from the previous one.
 
-### Step 4: Big Idea
-The ONE compelling central idea the entire promotion is built on.
+0. **Problem & Desire** -- ONE desire, ONE overarching problem: surface desire, external, internal, philosophical problem, real desire. Choose the philosophical problem that your solution resolves.
+1. **Duality & Common Enemy** -- name the Top of the Mountain, the Rock Bottom and the enemy, using the generating questions.
+2. **Marketing Thesis** -- "[New opportunity] is the key to [desire], and it's only attainable through [new mechanism]." Strongest when the mechanism is the Top of the Mountain identity.
+3. **Big Idea + Unique Proposition** -- generate several candidates, score them against the checklist, keep one. Aim for "the best-kept secret hidden in plain sight".
+4. **Offer pillars** -- "What does someone need to become [Top of Mountain]?" Map 3-5 pillars to offer components and write the narrative that creates the need for each.
+5. **Chain of Beliefs** -- reverse-engineer from the purchase back to something they already believe today. Attach at least one proof point to every link.
+6. **Lead** -- pick the type that matches awareness. Default to problem-solution when unsure.
 
-**Checklist:**
-- [ ] Emotionally compelling?
-- [ ] Contains a primary promise?
-- [ ] Intellectually interesting? ("I need to know more")
-- [ ] Connects two familiar concepts in an unfamiliar way?
+If the piece is a YouTube video, decide the packaging (broad topic, working title) before outlining: the script is written under that theme.
 
-Help brainstorm until a strong Big Idea emerges. Bad: "How I Started My Agency." Good: "There's a new railroad across America making people rich."
+**Checkpoint:** show the completed canvas and the forward-reading belief chain to the user and get agreement before scripting. A wrong thesis or a missing link cannot be fixed by good sentences.
 
-### Step 5: Offer Pillars
-Not features/benefits -- PILLARS that fill gaps the narrative creates.
+### Phase 3 -- Outline
 
-Ask: "What does someone need to become [top of mountain]?"
-Each requirement = a pillar. Each pillar = a component of the offer.
+Read `vsl-breakdown.md` and lay the canvas onto its VSL skeleton. For a multi-episode event, split the belief chain across episodes and place the pitch at the end of the last one. For each section note: the belief it installs, its proof, which pillar it seeds, and the coined terms it anchors.
 
-### Step 6: Chain of Beliefs
-Reverse-engineer from purchase:
-1. They buy the offer
-2. Before that: believe the marketing thesis
-3. Before THAT: what must they believe? (work backwards)
+Check the outline:
+- Does every section move toward the thesis (straight line)? Cut what does not.
+- Is every pillar, and every programme, student or company that appears in the pitch, already named earlier in the body?
+- Is there a belief about *themselves* ("I can do this"), with relatable proof?
+- In a crowded market, are the alternatives handled (parametrization, see `vsl-breakdown.md`)?
 
-**4 belief questions:**
-1. What must they believe about YOU?
-2. What must they believe about THEMSELVES? (most critical)
-3. What must they believe about the MARKETING THESIS?
-4. What must they believe about OTHER SOLUTIONS?
+### Phase 4 -- Write the script
 
-**Rule:** "A claim without a proof point is just a claim." Every belief needs proof.
+**Lead** (under two minutes on video, as short as possible)
+- Expand the Big Idea, sell the viewership, set the stakes, add proof if the claim is about money or health.
+- Start inside what they already believe; confirm the title's promise in the first 30 seconds.
+- Open a loop you will close later. Introduce yourself only after the hook.
 
-### Step 7: Lead Type Selection
+**Body** (one belief at a time)
+- Claim + proof = belief. Write each link with the short-form structure: verify -> internal problem -> philosophical pivot -> explanation -> benefit.
+- Let them reach conclusions themselves: agreement questions, analogies, their own situation.
+- Anchor the coined terms (duality pair, enemy, mechanism) through concrete scenes, then reuse them as one-word triggers.
+- Return to the duality again and again. Provoke, but let inspiration outweigh fear.
+- Keep seeding the need for each pillar.
 
-Based on audience awareness level:
+**Pitch** (design from `offer-construction.md`, sequence from `vsl-breakdown.md`)
+- Transition by recapping the accepted beliefs, then "here is what you need"; the "two options" framing works well (alone is possible but costly).
+- Present each component as the answer to a seeded need, and modules as outcomes. Use an honest damaging admission.
+- Put testimonials inside a context (a tiered results ladder), not in a block.
+- Price: regular price with a reason -> anchor/value stack -> discount with a reason -> final price -> trivialise per day.
+- Reasons to respond: a real deadline plus a fast-action bonus that matters. Re-stack after the price.
 
-| Awareness | Lead Type |
-|-----------|-----------|
-| Most Aware | Offer Lead (product, price, deal) |
-| Most Aware | Invitation Lead (exclusive, subtle) |
-| Solution Aware | Promise Lead (results, not product) |
-| Problem Aware | Problem-Solution Lead (most common) |
-| Less Aware | Secret/System Lead (curiosity-driven) |
-| Unaware | Story Lead (narrative entry) |
+**Close**
+- External scenario: the change is coming either way -> Rock Bottom or Top of the Mountain.
+- Risk reversal, if the user offers a guarantee (taught in the Offer lesson; the analysed VSL has none, so do not add one on your own).
+- Restate the value proposition; one clear CTA. For high-ticket offers a secondary "book a call" path is acceptable.
 
----
+Length: as long as the chain needs and no longer. There is no "too long", only "too boring". For a YouTube VSL, 20-40 minutes is the working range.
 
-## Writing the VSL Script
+### Phase 5 -- Filters and checks
 
-### The Lead (First 2 Minutes -- MOST IMPORTANT)
-The lead's job: SELL THE VIEWERSHIP (get them to watch the whole thing).
-
-Tactics:
-- **"Big Relevant Change" opening:** Name a change --> winners and losers --> path to winning
-- **Loop opening:** Tease info, promise later ("More about that in just a minute")
-- **Damaging admission:** "I can't guarantee you'll get these results" (increases trust + curiosity)
-- **Self-introduction AFTER the hook** (never start with who you are)
-- **Relatable testimonials early** (average people, not geniuses)
-
-### The Body (Chain of Beliefs, one by one)
-- Present each belief with its proof point
-- Every argument moves FORWARD (Jordan Belfort's Straight Line)
-- Use contrarian disqualification (create criteria that only your solution meets)
-- Seed the need for your product from minute one (don't save it all for the pitch)
-
-### The Pitch (Offer Pillars)
-- Present each pillar as fulfilling a need the narrative created
-- Stack value
-- Include testimonials
-- Address remaining objections
-
-### The Close
-- Urgency / scarcity (real, not fake)
-- Risk reversal (guarantee)
-- Final CTA
-- Closing duality ("Are you going to keep [rock bottom] or finally become [top of mountain]?")
-
----
-
-## YouTube Optimization (If Publishing as YouTube Video)
-
-### Packaging (Decide BEFORE Writing)
-- Broad topics > niche specifics
-- "Best online business model for beginners" > "How to start a marketing agency"
-
-### Key Metrics
-- **CTR target:** 10% day 1, ~5% long-term
-- **Retention target:** 35-60%
-- High CTR + low retention = PUNISHED
-- High CTR + high retention = PROMOTED aggressively
-
-### Title: Short, punchy, broad. NOT long copywriting headlines.
-### Thumbnail: Simple, 1-3 elements, create at least 5 and test.
-
----
+- Run the pre-flight checklist in `vsl-breakdown.md` and the offer checklist in `offer-construction.md`.
+- Run `persuasion-filters.md` over the draft.
+- Simplicity pass: spoken language, short sentences, nothing the viewer has to stop and decode.
+- Honesty pass: every number, testimonial, deadline, limit and guarantee term comes from the user or verified research. Mark anything unverified as `[NEEDS PROOF: ...]` instead of inventing it.
 
 ## Output Format
 
-### Launch Canvas Summary
-All 7 steps filled in, one page.
+1. **Launch Canvas** -- all steps filled, using the template.
+2. **Belief chain** -- numbered, forward order, with the proof for each link.
+3. **Script** -- sectioned according to the skeleton in `vsl-breakdown.md`:
 
-### Full VSL Script
 ```
-[SECTION: THE LEAD]
-[Timing: 0:00-2:00]
+[SECTION: name]  [approx. timing]
+Belief installed: ...   Proof: ...   Seeds: ...
 
-[Script with scene directions]
-
----
-
-[SECTION: BELIEF #1 - ...]
-[Timing: 2:00-...]
-
-[Script]
-
----
-
-[Continue for all beliefs...]
-
----
-
-[SECTION: THE PITCH]
-[Offer pillars + value stack]
-
----
-
-[SECTION: THE CLOSE]
-[Urgency + CTA + closing duality]
+Script text, with [on-screen / visual] notes where useful
 ```
 
-### Packaging Suggestions (if for YouTube)
-- 3 title options
-- 5 thumbnail concepts
+4. **Packaging** (if published as a video) -- broad topic, 3-5 short titles, 5 thumbnail concepts, evergreen or event-based.
+5. **Open items** -- proof or offer details the user still has to supply.
+
+For a short request ("just the lead", "just the offer"), still fill the canvas steps that part depends on, briefly, and state your assumptions.
+
+## Common Mistakes
+
+Full table in `longform-canvas.md`. The ones that cost most:
+- Writing before the canvas exists; more than one problem or big idea
+- Two-act structure: content, then a sudden pitch
+- Claims with no proof; a skipped link in the chain
+- Ignoring the prospect's doubt in themselves
+- A long copywriting headline used as a YouTube title; ignoring how the piece gets traffic
+- Invented urgency, testimonials or guarantees
 
 ## Related P2P Skills
 
-- **p2p-research** -- To fill the Launch Canvas (3-layer analysis)
-- **p2p-landing** -- For the landing page the VSL drives to
-- **p2p-review** -- To review the VSL script
-- **p2p-ads** -- For ads driving traffic to the VSL
-- **p2p-email** -- For email campaigns around the VSL launch
+- **p2p-research** -- audience research and the 3-layer problem analysis that feeds the canvas
+- **p2p-landing** -- the page the VSL sits on or drives to
+- **p2p-review** -- review of a finished script
+- **p2p-ads** -- ads driving traffic to the VSL
+- **p2p-email** -- email campaigns around the launch

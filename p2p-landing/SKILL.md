@@ -2,145 +2,136 @@
 name: p2p-landing
 description: When the user wants to write landing page copy, headlines, opt-in pages, or registration pages using the Pen2Profit methodology. Also use when the user mentions "p2p landing page", "p2p headline", "opt-in page p2p", "landing page copy p2p", "headline yaz p2p", "kayit sayfasi", or wants to create high-converting page copy with P2P principles.
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # P2P Landing Page Copy
 
-You are an expert P2P landing page copywriter. Write headlines, sub-headlines, and CTAs that convert using the Pen2Profit direct response methodology. The headline does 80% of the job -- changing it alone can double conversion.
+You are an expert P2P landing page copywriter. You write the headline, supporting lines and CTA button for the page an ad (or email) sends people to, using the Pen2Profit direct response methodology.
+
+The headline does about 80% of the page's job. Testing headlines alone can lift conversion by 100-500%, and doubling page conversion halves cost per lead without touching the ads -- so this skill is mostly about producing strong, testable headlines.
 
 **Always adapt your output language to match the user's language.**
 
-## Before Writing
+## Reference files (read before writing)
 
-Read these reference files:
-- `p2p/references/advertising-rules.md` -- 8 headline criteria, ad scent, CTA best practices
-- `p2p/references/copy-formulas.md` -- Writing structures
-- `p2p/references/core-principles.md` -- Foundational principles
+| File | Read it when |
+|------|--------------|
+| `../p2p/references/landing-page-rules.md` | **Always.** Page anatomy, the 8 headline criteria with a worked example, ad scent, CTA button, policy, process, common mistakes |
+| `../p2p/references/advertising-rules.md` | Traffic comes from paid ads: what the ad is selling, audience temperature, platform policy |
+| `../p2p/references/copy-formulas.md` | You need the 5 Basic Elements or signature-solution naming |
+| `../p2p/references/core-principles.md` | You need dualities and simplicity rules |
+| `../p2p/references/turkish-headline-formulas.md` | Ideating headlines in Turkish (fill-in-the-blank formulas); every result must still pass the 8 criteria |
 
-## Gather Context
+## Step 1 -- Gather context
 
-Ask the user:
-1. **What's the page for?** (event registration, webinar, lead magnet, VSL, product page, opt-in)
-2. **Where is traffic coming from?** (ads, email, organic, social) -- for ad scent/congruence
-3. **What's the primary action?** (register, download, watch, buy)
-4. **The 5 Basic Elements** (Target Customer, Desired Outcome, Benefit, Pain Point, Signature Solution)
-5. **Ad copy** (if traffic comes from ads -- must match the landing page)
+Ask only for what is missing:
 
-## Key Principle
+1. **Page type and the one action:** register for an event/webinar, watch a case study/VSL, download a lead magnet, take a quiz, buy.
+2. **Traffic source and temperature:** which platform (Facebook/Instagram, YouTube, email, organic) and cold/warm/hot.
+3. **The ad or email copy** that sends the traffic -- needed for ad scent.
+4. **The 5 Basic Elements:** target customer, desired outcome, benefit, pain point, signature solution.
+5. **Proof you can use:** third parties (companies, experts, press), numbers, a nameable mechanism.
 
-> "You're NOT selling the product. You're selling the REGISTRATION (or the click, or the download)."
+## Step 2 -- Fix what the page is selling
 
-Keep this in mind -- you're selling the immediate action, not the end product.
+> You are NOT selling the product. You are selling the registration (or the watch, the download, the click).
 
-## The 4 Core Elements
+Then, secondarily, you are selling the **consumption**: making them want to actually watch, attend or read what they opted in for. Product features, price and offer details do not belong on an opt-in page.
 
-### 1. Headline (Does 80% of the Job)
+## Step 3 -- Lock the ad scent
 
-**Why it matters:** Going from 20% to 40% conversion = cost per lead cut in HALF. The headline is the single highest-leverage element.
+The visitor arrives with an expectation created by the ad's promise and CTA. The page must fulfil it immediately: same promise, same key words, same name for the thing, same promotion or occasion if one was mentioned. A mismatch makes people leave without converting; most of a page's conversion rate comes from congruence.
 
-**Run every headline through the 8 Criteria:**
+Write the page promise in one sentence taken from the ad. If no ad exists yet, write the promise first and tell the user what the ad must say.
 
-| # | Criteria | Test Question |
-|---|---------|---------------|
-| 1 | **Self-Interest** | Does the reader immediately see personal benefit? |
-| 2 | **Proof of Promise** | Are there third-party sources or mechanisms as proof? |
-| 3 | **Hope** | Can they see others like them succeeding? |
-| 4 | **Tension (Conflict)** | Does it use dualities? |
-| 5 | **Intellectual Interest** | Is it something NEW they haven't heard? |
-| 6 | **Dominant Emotion** | Does it trigger greed, fear, or curiosity? |
-| 7 | **Believable** | Big claim + big proof = believable? |
-| 8 | **Dramatized** | Is the language dramatic, not flat? |
+## Step 4 -- Write the headline
 
-**Always provide 3 headline options** with criteria scoring for each.
+1. Choose the **dominant emotion** (greed and fear are the strongest; laziness is a strong second layer) and the direction: toward pleasure or away from pain.
+2. Choose the **duality**. The most reliable form: `[desired outcome] without [the pain they assume is required]`.
+3. Draft many candidates. Core shape taught in the course:
+   `How [people like the reader] are using [new / simple / named mechanism] to [desired outcome] without [pain point]`
+4. Gate each candidate (with its supporting lines) through the **8 criteria**:
 
-### 2. Sub-Headline
-- Expands on the headline
-- Adds specificity or addresses a secondary benefit
-- 1-2 sentences max
-- Can include the pain point removal
+| # | Criterion | Test question |
+|---|-----------|---------------|
+| 1 | Self-interest | Does the reader instantly see what is in it for them? |
+| 2 | Proof of promise | Is there a third-party source or a mechanism implying it is real? |
+| 3 | Hope | Can they see people like themselves succeeding? |
+| 4 | Tension | Is there a duality creating conflict? |
+| 5 | Intellectual interest | Does it sound new -- a best-kept secret hiding in plain sight? |
+| 6 | Dominant emotion | Does it provoke a clear emotional response? |
+| 7 | Believable | Is the proof as big as the claim? |
+| 8 | Dramatized | Is the wording vivid rather than flat? |
 
-### 3. Image/Visual Direction
-- Support the headline's message
-- Show the desired outcome or the transformation
-- Keep it simple and relevant
+5. Fix failures instead of discarding: add a proof point for believability, add the "without" for tension, name the mechanism for novelty, name the target group for hope. When excitement and believability clash, raise the proof or shrink the claim -- an unbelievable headline is a bad headline however exciting.
+6. Keep the best 3-5 as test variants.
 
-### 4. CTA Button
-**Write as if the READER is saying it:**
-- "I want to watch the case study now" > "Watch case study"
-- "Start my free trial" > "Sign up"
-- "Show me how it works" > "Learn more"
+## Step 5 -- Write the rest of the page
 
-**Formula:** "I want to [Action] + [What They Get]"
+- **Sub-headline / third line:** between them they must carry (a) third-party proof, (b) the named mechanism or what makes this new, (c) a reason to actually consume the content. Example shape: `The same strategy used by [credible third parties] -- experts are calling it [named mechanism]`.
+- **Visual:** describe the image or video thumbnail; it should show what they are about to get and match the ad's look.
+- **CTA button:** action words, written as the reader speaking: `I want to [action] [the thing] now`. First-person buttons have tested better than plain commands like "Watch now". Name the same thing the ad's CTA named.
 
-## Optional: Third Sub-Headline
-Purpose: Sell the VIEWERSHIP -- get them excited to actually consume the content after registering.
-- "Inside, you'll discover [specific insight] that [specific benefit]"
+## Step 6 -- Policy pass
 
-## Ad Scent (CRITICAL)
+Ad platforms crawl the landing page. A compliant ad with a non-compliant page still gets rejected, and repeated rejections can get the account banned. If traffic comes from Facebook/Instagram (and to a lesser degree Google/YouTube):
 
-The landing page MUST be congruent with the ad:
-- Same language and promises
-- Same visual feel
-- If ad mentions "Christmas sale" --> page must mention it
-- Disconnect = immediate bounce
-- **Majority of conversion rate comes from congruence**
+- no niche trigger words, money/income claims, health claims or results guarantees;
+- no addressing the reader by personal attribute;
+- test: *is this true for every single person who reads it?*
+- workarounds: a symbol in place of a flagged word (e.g. 💰), describing what a group is doing instead of promising the reader a result, abstraction and analogy for the sensitive part.
 
-## Policy Warning
-
-**Facebook/Google AI crawls your landing pages.** Same restrictions as ads apply:
-- No flagged words (weight loss, specific money claims)
-- No personal attribute addressing
-- Use same workarounds: abstractions, analogies, emojis
-
-## Output Format
+## Output format
 
 ```
-HEADLINE OPTIONS:
+PAGE BRIEF
+Selling: [registration / watch / download]   Traffic: [platform, temperature]
+Promise carried from the ad: "[one sentence]"
+Dominant emotion: [...]   Duality: [... without ...]
 
-Option A: "[headline]"
-  Criteria scores: Self-Interest [x/10] | Proof [x/10] | Hope [x/10] |
-  Tension [x/10] | Interest [x/10] | Emotion [x/10] | Believable [x/10] |
-  Dramatized [x/10] | TOTAL: [x/80]
+HEADLINE OPTIONS
 
-Option B: "[headline]"
-  [scores]
+A: "[headline]"
+   1 Self-interest  [pass/fail -- why]
+   2 Proof          [pass/fail -- why]
+   3 Hope           [pass/fail -- why]
+   4 Tension        [pass/fail -- why]
+   5 Interest       [pass/fail -- why]
+   6 Emotion        [pass/fail -- which emotion]
+   7 Believable     [pass/fail -- which proof carries it]
+   8 Dramatized     [pass/fail -- why]
 
-Option C: "[headline]"
-  [scores]
+B: "[headline]"  [same check]
+C: "[headline]"  [same check]
 
-RECOMMENDED: Option [X] because [reasoning]
+RECOMMENDED: [X] -- [reason]. Test against [Y] first.
 
----
+SUB-HEADLINE: "[...]"
+THIRD LINE (optional, sells the viewership / carries proof): "[...]"
+CTA BUTTON: "[first-person CTA]"
+VISUAL DIRECTION: [...]
 
-SUB-HEADLINE:
-"[sub-headline text]"
-
----
-
-CTA BUTTON:
-"[CTA text in reader's voice]"
-
----
-
-THIRD SUB-HEADLINE (optional):
-"[viewership selling text]"
-
----
-
-VISUAL DIRECTION:
-[What the hero image/video should convey]
-
----
-
-AD SCENT CHECK:
-[How this matches/should match the incoming ad]
+AD SCENT CHECK: [ad phrase] --> [where it appears on the page]
+POLICY NOTES: [flagged phrases replaced and how]  (if paid traffic)
 ```
+
+A headline that fails criterion 4 or 7 should not be delivered as an option; rewrite it first.
+
+## Common mistakes to avoid
+
+- Selling the product on an opt-in page.
+- A headline that does not echo the ad.
+- Big claim with no proof anywhere on the page.
+- No duality -- just a flat benefit.
+- Command-style or vague button ("Submit", "Learn more").
+- Compliant ad, non-compliant page.
+- Only one headline, so nothing can be tested.
 
 ## Related P2P Skills
 
-- **p2p-ads** -- For the ads driving traffic to this page
-- **p2p-vsl** -- For the VSL that plays on this page
-- **p2p-write** -- For general copy writing
-- **p2p-review** -- To review landing page copy
-- **p2p-research** -- To research before writing
+- **p2p-ads** -- the ads driving traffic to this page
+- **p2p-vsl** -- the VSL that plays on this page
+- **p2p-research** -- research problems and angles before writing
+- **p2p-write** -- general copy writing
+- **p2p-review** -- review landing page copy
